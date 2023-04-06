@@ -4,8 +4,8 @@
 
 require "date"
 today = Date.today
-year = today.strftime("%Y")
-day = today.strftime("%e")
+year = today.year
+day = today.day
 month = today.month
 
 p "The year is: " + year.to_s + ", the calendar day is: " + day.to_s + ", and the month is: " + month.to_s
