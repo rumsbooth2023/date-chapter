@@ -8,3 +8,7 @@
 # 
 # if today is not Monday.
 
+require "date"
+today = Date.today
+
+p "Is today Monday? " + today.monday?.to_s
